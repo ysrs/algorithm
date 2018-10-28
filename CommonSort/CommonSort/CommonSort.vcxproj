@@ -148,15 +148,27 @@
   <ItemGroup>
     <ClCompile Include="BubbleSort.c" />
     <ClCompile Include="CockTailSort.c" />
+    <ClCompile Include="DichotomyInsertionSort.c" />
+    <ClCompile Include="HeapSort.c" />
+    <ClCompile Include="InsertionSort.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="CommonUtil.c" />
+    <ClCompile Include="MergeSort.c" />
+    <ClCompile Include="QuickSort.c" />
     <ClCompile Include="SelectionSort.c" />
+    <ClCompile Include="ShellSort.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BubbleSort.h" />
     <ClInclude Include="CockTailSort.h" />
     <ClInclude Include="CommonUtil.h" />
+    <ClInclude Include="DichotomyInsertionSort.h" />
+    <ClInclude Include="HeapSort.h" />
+    <ClInclude Include="InsertionSort.h" />
+    <ClInclude Include="MergeSort.h" />
+    <ClInclude Include="QuickSort.h" />
     <ClInclude Include="SelectionSort.h" />
+    <ClInclude Include="ShellSort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

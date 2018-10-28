@@ -30,6 +30,24 @@
     <ClCompile Include="SelectionSort.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="InsertionSort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DichotomyInsertionSort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellSort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapSort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BubbleSort.h">
@@ -42,6 +60,24 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="SelectionSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertionSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DichotomyInsertionSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

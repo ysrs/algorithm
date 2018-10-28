@@ -15,20 +15,85 @@
 #include "BubbleSort.h"
 #include "CockTailSort.h"
 #include "SelectionSort.h"
+#include "InsertionSort.h"
+#include "DichotomyInsertionSort.h"
+#include "ShellSort.h"
+#include "MergeSort.h"
+#include "HeapSort.h"
+#include "QuickSort.h"
 
 
 int main()
 {
-	int iArray[] = { 8, 5, 2, 6, 9, 3, 1, 4, 0, 7 };
+	int iArray[] = { 5, 2, 9, 4, 7, 6, 1, 3, 8 };
 	int iLength = sizeof(iArray) / sizeof(int);
 	// 从小到大选择排序
-	printf("Before Selection Sort...\n");
-	PrintArray(iArray, iLength);
+	//printf("Before Selection Sort...\n");
+	//PrintArray(iArray, iLength);
+	//SelectionSort(iArray, iLength);
+	//printf("After Selection Sort...\n");
+	//PrintArray(iArray, iLength);
 
-	SelectionSort(iArray, iLength);
+	// 从小到大插入排序
+	//printf("Before Insertion Sort...\n");
+	//PrintArray(iArray, iLength);
+	//InsertionSort(iArray, iLength);
+	//printf("After Insertion Sort...\n");
+	//PrintArray(iArray, iLength);
 
-	printf("After Selection Sort...\n");
-	PrintArray(iArray, iLength);
+	// 从小到大排序
+	//printf("Before Dichotomy Insertion Sort...\n");
+	//PrintArray(iArray, iLength);
+	//DichotomyInsertionSort(iArray, iLength);
+	//printf("After Dichotomy Insertion Sort...\n");
+	//PrintArray(iArray, iLength);
+
+	// 从小到大排序
+	//printf("Before Shell Sort...\n");
+	//PrintArray(iArray, iLength);
+	//ShellSort(iArray, iLength);
+	//printf("After Shell Sort...\n");
+	//PrintArray(iArray, iLength);
+
+
+	//int A1[] = { 6, 5, 3, 1, 8, 7, 2, 4 };      // 从小到大归并排序
+	//int A2[] = { 6, 5, 3, 1, 8, 7, 2, 4 };
+	//int n1 = sizeof(A1) / sizeof(int);
+	//int n2 = sizeof(A2) / sizeof(int);
+	//MergeSortRecursion(A1, 0, n1 - 1);          // 递归实现
+	//MergeSortIteration(A2, n2);                 // 非递归实现
+	//printf("递归实现的归并排序结果：");
+	//for (int i = 0; i < n1; i++)
+	//{
+	//	printf("%d ", A1[i]);
+	//}
+	//printf("\n");
+	//printf("非递归实现的归并排序结果：");
+	//for (int i = 0; i < n2; i++)
+	//{
+	//	printf("%d ", A2[i]);
+	//}
+
+	//int A[] = { 5, 2, 9, 4, 7, 6, 1, 3, 8 };// 从小到大堆排序
+	//int n = sizeof(A) / sizeof(int);
+	//HeapSort(A, n);
+	//printf("堆排序结果：");
+	//for (int i = 0; i < n; i++)
+	//{
+	//	printf("%d ", A[i]);
+	//}
+	//printf("\n");
+
+	int A[] = { 5, 2, 9, 4, 7, 6, 1, 3, 8 }; // 从小到大快速排序
+	int n = sizeof(A) / sizeof(int);
+	QuickSort(A, 0, n - 1);
+	printf("快速排序结果：");
+	for (int i = 0; i < n; i++)
+	{
+		printf("%d ", A[i]);
+	}
+	printf("\n");
+
 
 	getchar();
 	return 0;
